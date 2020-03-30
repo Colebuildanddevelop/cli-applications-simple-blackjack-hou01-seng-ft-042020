@@ -3,7 +3,11 @@ def welcome
 end
 
 def deal_card
+<<<<<<< HEAD
   rand(1..11)
+=======
+  puts rand(1..11)
+>>>>>>> 1c11dcc1aaf6779483b7ddc88e0dc093808f9da8
 end
 
 def display_card_total(card_total)
@@ -62,3 +66,4 @@ end
 
 
     
+deal_card
